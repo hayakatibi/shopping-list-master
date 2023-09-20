@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color3"
+    android:backgroundTint="@color/color3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color3"
+        android:backgroundTintMode="add"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color3"
+            android:backgroundTintMode="add"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+    </RelativeLayout>
+</RelativeLayout>

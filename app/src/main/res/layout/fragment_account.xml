@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:text="Account"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/selectable_items"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/noti2"            >
+
+            <ImageButton
+                android:id="@+id/completeButton1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/personal" />
+
+            <TextView
+                android:id="@+id/btnMyLists"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="10dp"
+                android:background="@drawable/selectable_items"
+                android:text="Personal"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/familyMembers"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/noti2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selectable_items"
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/completeButton2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/round_home_24" />
+
+            <TextView
+                android:id="@+id/btnSharedLists"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+
+                android:background="@drawable/selectable_items"
+                android:text="Family members"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:background="@drawable/selectable_items"
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/noti2"
+            >
+
+            <ImageButton
+                android:id="@+id/completeButton3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="checkbox"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/groups" />
+
+            <TextView
+                android:id="@+id/btnFavorite"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/selectable_items"
+                android:text="Other members"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

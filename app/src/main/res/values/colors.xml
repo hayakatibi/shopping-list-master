@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color">#EDEBE8</color>//background
+    <color name="color2">#E0DAD5</color>
+    <color name="color3">#424249</color>//bars
+    <color name="color4">#FF5E2C</color>//buttons
+
+    <color name="orange">#FF5E2C</color>
+    <color name="LightGray">#E0DAD5</color>
+    <color name="Gray">#424249</color>
+
+</resources>

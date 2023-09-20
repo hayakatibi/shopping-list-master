@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taskCellContainer"
+    android:layout_width="370dp"
+    android:layout_height="70dp"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    android:background="#D3D3D3"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/mitem"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selectable_items"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/completeButton1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:contentDescription="checkbox"
+            android:focusable="true"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/uncheck_box"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/btnMyLists1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"
+            android:background="@drawable/selectable_items"
+            android:text="Item"
+            android:textColor="#000"
+            android:textSize="21sp" />
+
+        <ImageButton
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/comment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="end"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/star_outline" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

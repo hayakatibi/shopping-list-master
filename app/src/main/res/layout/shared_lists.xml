@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:text="Shared Lists"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selectable_items"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/completeButton1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/uncheck_box" />
+
+            <TextView
+                android:id="@+id/btnMyLists1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:background="@drawable/selectable_items"
+                android:text="List 1"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <ImageButton
+                android:id="@+id/comment1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:backgroundTint="@android:color/transparent"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/insert_comment" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selectable_items"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+
+            >
+
+            <ImageButton
+                android:id="@+id/completeButton2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/uncheck_box" />
+
+            <TextView
+                android:id="@+id/btnMyLists2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:background="@drawable/selectable_items"
+                android:text="List 2"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <ImageButton
+                android:id="@+id/comment2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:backgroundTint="@android:color/transparent"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/insert_comment" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selectable_items"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+
+            >
+
+            <ImageButton
+                android:id="@+id/completeButton3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/uncheck_box" />
+
+            <TextView
+                android:id="@+id/btnMyLists3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:background="@drawable/selectable_items"
+                android:text="List 3"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <ImageButton
+                android:id="@+id/comment3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:backgroundTint="@android:color/transparent"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/insert_comment" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selectable_items"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+
+            >
+
+            <ImageButton
+                android:id="@+id/completeButton4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="checkbox"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/uncheck_box" />
+
+            <TextView
+                android:id="@+id/btnMyLists4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:background="@drawable/selectable_items"
+                android:text="List 4"
+                android:textColor="#000"
+                android:textSize="21sp" />
+
+            <ImageButton
+                android:id="@+id/comment4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:backgroundTint="@android:color/transparent"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/insert_comment" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
